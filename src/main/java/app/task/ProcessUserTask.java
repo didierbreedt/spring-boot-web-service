@@ -1,4 +1,4 @@
-package app.tasks;
+package app.task;
 
 import app.enumeration.UserTaskStatus;
 import app.model.UserTask;

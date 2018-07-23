@@ -3,7 +3,7 @@ package app;
 import app.enumeration.UserTaskStatus;
 import app.model.UserTask;
 import app.repository.UserTaskRepository;
-import app.tasks.ProcessUserTask;
+import app.task.ProcessUserTask;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
