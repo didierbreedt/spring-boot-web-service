@@ -29,3 +29,10 @@ This will run:
 You may also run this application without using Docker, however this will introduce JDK 8 and Maven as system dependencies.
 
 `mvn spring-boot:run`
+
+## H2 Console
+You may utilise the H2 built-in console @ http://localhost:8080/console
+`jdbc:h2:file:./h2`
+
+## Curl Example
+You may run `curl.sh` to test the API calls using curl. Please see the script for details.
