@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 ###
 ### It is best to stop the app, delete "h2.mv.db" from the root and restarting the app before running this; in order to reduce information noise.
