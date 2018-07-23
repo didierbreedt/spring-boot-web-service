@@ -32,6 +32,7 @@ You may also run this application without using Docker, however this will introd
 
 ## H2 Console
 You may utilise the H2 built-in console @ http://localhost:8080/console
+
 `jdbc:h2:file:./h2`
 
 ## Curl Example
