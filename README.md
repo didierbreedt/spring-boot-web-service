@@ -36,3 +36,6 @@ You may utilise the H2 built-in console @ http://localhost:8080/console
 
 ## Curl Example
 You may run `curl.sh` to test the API calls using curl. Please see the script for details.
+
+## Lombok usage
+Please note this project uses https://projectlombok.org. It may interfere with you IDE linting if you don't have the necessary plugins installed.
