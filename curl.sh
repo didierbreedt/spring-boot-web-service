@@ -73,13 +73,7 @@ curl "http://localhost:8080/api/user/1/task"
 echo -e "\n\nDelete Task\n"
 
 ## Delete Task
-curl -X "DELETE" "http://localhost:8080/api/user/1/task/10" \
-     -H 'Content-Type: application/json; charset=utf-8' \
-     -d $'{
-  "username": "john.doe2",
-  "first_name": "John",
-  "last_name": "Doe"
-}'
+curl -X "DELETE" "http://localhost:8080/api/user/1/task/10"
 
 echo -e "\n"
 
